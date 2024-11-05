@@ -1,0 +1,18 @@
+
+# Ignore environment file
+env/*
+
+# Ignore global shape file
+110m_cultural/
+
+# Ignore large csv files
+data/meters/raw/chilledwater.csv
+data/cleaned/test_wo_weather.csv
+data/cleaned/train_wo_weather.csv
+data/cleaned/train.csv
+data/cleaned/test.csv
+data/meters/raw/electricity.csv
+data/meters/kaggle/kaggle.csv
+data/meters/cleaned/allmeters_daily.csv
+models/lgbm_all_meter.joblib
+data/*
